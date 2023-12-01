@@ -2,6 +2,7 @@ import './style.css';
 import Navbar from '../navbar';
 import HeroImg from '../heroImg';
 import AboutMe from '../about';
+import Portfolio from '../portfolio/index';
 
 const LandingPage = () => {
   return (
@@ -10,6 +11,7 @@ const LandingPage = () => {
         <Navbar />
         <HeroImg />
         <AboutMe />
+        <Portfolio />
       </div>
       
     </>

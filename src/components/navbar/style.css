@@ -1,15 +1,15 @@
-.nav {
+.navi {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: .5rem 2rem;
     z-index: 10;
-    width: 96vw;
+    width: 100vw;
     position: fixed;
     top: 0;
 }
 
-.nav a {
+.navi a {
     color: white;
 }
 

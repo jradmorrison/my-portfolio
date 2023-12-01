@@ -2,7 +2,7 @@ import './style.css';
 
 const Navbar = () => {
   return (
-    <div className="nav">
+    <div className="navi">
       <a href="/">
         <h1 className=''>Jared Morrison</h1>
       </a>
