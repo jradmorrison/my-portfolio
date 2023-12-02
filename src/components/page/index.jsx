@@ -4,6 +4,7 @@ import HeroImg from '../heroImg';
 import AboutMe from '../about';
 import Portfolio from '../portfolio/index';
 import Skills from '../skills/index';
+import Contact from '../contactForm';
 
 const LandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
         <AboutMe />
         <Portfolio />
         <Skills />
+        <Contact />
       {/* </div> */}
     </>
   );

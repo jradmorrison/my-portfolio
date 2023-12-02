@@ -23,7 +23,7 @@ const skills = () => {
   ];
 
   return (
-    <div id="resume">
+    <div id="skills">
       <h2 className="py-5 text-center text-white">SKILL OVERVIEW</h2>
       <div className="container d-flex flex-wrap text-white text-center">
         {skillData.map((skill) => (
