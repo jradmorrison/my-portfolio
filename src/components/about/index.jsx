@@ -4,14 +4,14 @@ import me from '../../assets/images/jared.jpg';
 const AboutMe = () => {
   return (
     <div id="about-me">
-      <div className="content">
-        <h2>Hey there!👋</h2>
-        <div className="flex">
-          <div>
+      <div className="content container">
+        <h2 className='mb-4'>Hey there!👋</h2>
+        <div className="d-flex flex-wrap justify-content-around">
+          <div className='col-sm-4'>
             <img src={me} alt="a picture of me" id="me" />
           </div>
-          <div className='words'>
-            <p>
+          <div className='words col-sm-7'>
+            <p className='mb-5'>
               Welcome to my React portfolio! I developed this web project on my
               way of learning and mastering React.js.
             </p>

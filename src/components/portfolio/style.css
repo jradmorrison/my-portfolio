@@ -1,3 +1,11 @@
 #portfolio {
-    background-color: lightgrey;
+    background-color: whitesmoke;
+}
+
+.card {
+  box-shadow: 3px 3px 15px grey; 
+}
+
+.card:hover {
+    box-shadow: 7px 7px 15px grey;
 }

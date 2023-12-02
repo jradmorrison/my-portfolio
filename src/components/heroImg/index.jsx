@@ -1,6 +1,5 @@
 import './style.css'
 
-
 const heroImg = () => {
     return (
         <div className='hero'>

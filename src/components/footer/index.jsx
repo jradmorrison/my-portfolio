@@ -12,7 +12,7 @@ import resume from '../../assets/resume.pdf';
 const Footer = () => {
   return (
     <div id="footer" className="text-white">
-      <div className="container p-3">
+      <div className="container pt-3">
         <div className="d-flex justify-content-center">
           <div className="px-5">
             <div className="d-flex">

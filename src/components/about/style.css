@@ -1,14 +1,13 @@
 #about-me {
-    padding: 3rem;
+    padding: 8rem 3rem;
     margin: 0 auto;
-    max-width: 1200px;
+    /* max-width: 1200px; */
 }
 
 .content {
     border: 2px solid white;
     padding: 2rem;
-    box-shadow: inset;
-    margin: 2rem;
+    /* margin: 2rem; */
     color: white;
 }
 
@@ -18,18 +17,21 @@
 
 .content p {
     font-size: 1.2rem;
-    margin: 4rem .5rem;
+    /* margin: 3rem .5rem; */
 }
 
-.flex {
-    display: flex;
-    width: 100%;
-}
 
-.words {
-    margin: 1rem;
-}
+
+/* .words {
+    margin: 0 1rem;
+} */
 
 #me {
     width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    #me {
+        margin-bottom: 1rem;
+    }
 }

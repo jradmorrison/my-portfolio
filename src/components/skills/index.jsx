@@ -1,4 +1,5 @@
 import SkillPartial from './skillPartial';
+import './style.css'
 
 const skills = () => {
   const skillData = [
@@ -24,8 +25,8 @@ const skills = () => {
 
   return (
     <div id="skills">
-      <h2 className="py-5 text-center text-white">SKILL OVERVIEW</h2>
-      <div className="container d-flex flex-wrap text-white text-center">
+      <h2 className="py-5 text-center text-white title">SKILL OVERVIEW</h2>
+      <div className="container d-flex flex-wrap text-white text-center py-5">
         {skillData.map((skill) => (
           <SkillPartial key={skill.id} skill={skill} />
         ))}
