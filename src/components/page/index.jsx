@@ -5,6 +5,7 @@ import AboutMe from '../about';
 import Portfolio from '../portfolio/index';
 import Skills from '../skills/index';
 import Contact from '../contactForm';
+import Footer from '../footer';
 
 const LandingPage = () => {
   return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
         <Portfolio />
         <Skills />
         <Contact />
+        <Footer />
       {/* </div> */}
     </>
   );

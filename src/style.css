@@ -5,10 +5,13 @@
 body {
     margin: 0;
     background-color: var(--grey);
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 /* h1, h2, h3, p, a {
