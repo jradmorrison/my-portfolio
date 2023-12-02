@@ -1,7 +1,7 @@
 .hero {
     z-index: 0;
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('../../assets/images/hero.png');
     background-repeat: no-repeat;
     background-position: center;

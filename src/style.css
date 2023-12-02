@@ -14,3 +14,8 @@ a {
 /* h1, h2, h3, p, a {
     color: white;
 } */
+
+.screen {
+    width: 100vw;
+    min-height: 100vh;
+}
