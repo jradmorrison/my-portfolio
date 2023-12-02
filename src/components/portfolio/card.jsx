@@ -8,10 +8,10 @@ const Card = ({ project }) => {
         <h5 className="card-title">{project.title}</h5>
         <p className="card-text">{project.description}</p>
         <div className="d-flex justify-content-around">
-          <a href={project.repo} className="btn btn-success" target="_blank">
+          <a href={project.repo} className="" target="_blank">
             Repo
           </a>
-          <a href={project.live} className="btn btn-success" target="_blank">
+          <a href={project.live} className="" target="_blank">
             Deployed
           </a>
         </div>

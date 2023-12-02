@@ -38,7 +38,7 @@
     opacity: 0;
     transition: opacity 300ms, transform 300ms;
     transform: scale(0);
-  transform-origin: center;
+    transform-origin: center;
 }
 
 .links a:hover::after,

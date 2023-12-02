@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div id="contact" className="bg-light">
+    <div id="contact" style={{backgroundColor: 'whitesmoke'}}>
       <div className="container py-5">
         <div>
           <h3 className="text-center mb-5">GET IN TOUCH</h3>
