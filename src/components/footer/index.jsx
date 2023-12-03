@@ -1,3 +1,4 @@
+import './style.css';
 import { IoLocationOutline } from 'react-icons/io5';
 import { TfiEmail } from 'react-icons/tfi';
 import {
@@ -14,7 +15,7 @@ const Footer = () => {
     <div id="footer" className="text-white">
       <div className="container pt-3">
         <div className="d-flex justify-content-center">
-          <div className="px-5">
+          <div className="box1">
             <div className="d-flex">
               <IoLocationOutline size={24} />
               <p className="ms-3">Orlando, Fl</p>
@@ -32,7 +33,7 @@ const Footer = () => {
               <p className="ms-3">(407) 417 4736</p>
             </div>
           </div>
-          <div className="px-5">
+          <div className="box2">
             <div className="d-flex">
               <a
                 href="https://github.com/jradmorrison"
