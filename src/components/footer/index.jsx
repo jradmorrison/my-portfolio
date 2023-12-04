@@ -57,7 +57,8 @@ const Footer = () => {
             <div className="mt-3 text-center">
               <a
                 href={resume}
-                attributes-listdownload="Jared Morrison's resume">
+                attributes-listdownload="Jared Morrison's resume"
+                target='_blank'>
                 Download my resume
               </a>
             </div>
