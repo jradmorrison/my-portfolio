@@ -35,7 +35,7 @@
   <p align="center">
     A front-end web app acting as a portfolio for myself and my work created with React
     <br><br>
-    <a href="" target="_blank">Visit the deployed site here</a>
+    <a href="https://jared-morrison.netlify.app/" target="_blank">Visit the deployed site here</a>
   </p>
 </div>
 
@@ -73,7 +73,7 @@ No installation necessary
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To use this application, simply visit the deployed site <a href="">here</a> 
+To use this application, simply visit the deployed site <a href="https://jared-morrison.netlify.app/" target="_blank">here</a>
 
 Here's a quick peek at what you can expect to see!
 
