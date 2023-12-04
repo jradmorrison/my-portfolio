@@ -1,14 +1,13 @@
 #about-me {
     padding: 8rem 3rem;
     margin: 0 auto;
-    /* max-width: 1200px; */
 }
 
 .content {
     border: 2px solid white;
     padding: 2rem;
-    /* margin: 2rem; */
     color: white;
+    box-shadow: 0 0 50px var(--blueGreen);
 }
 
 .content h2 {
@@ -17,14 +16,8 @@
 
 .content p {
     font-size: 1.2rem;
-    /* margin: 3rem .5rem; */
 }
 
-
-
-/* .words {
-    margin: 0 1rem;
-} */
 
 #me {
     width: 100%;

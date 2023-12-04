@@ -1,10 +1,10 @@
 const Contact = () => {
   return (
-    <div id="contact" style={{backgroundColor: 'whitesmoke'}}>
+    <div id="contact" style={{ backgroundColor: 'whitesmoke' }}>
       <div className="container py-5">
         <div>
           <h3 className="text-center mb-5">GET IN TOUCH</h3>
-          <form className="w-50 mx-auto">
+          <form className="col-lg-6 col-md-8 mx-auto">
             <div className="mb-3">
               <input
                 type="text"
