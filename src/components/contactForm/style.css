@@ -1,0 +1,11 @@
+#contact button {
+  background-color: var(--blueGreen);
+  color: white;
+  border: none;
+  padding: 7.5px 15px;
+  border-radius: 7px;
+}
+
+#contact button:hover {
+  background-color: #488786;
+}

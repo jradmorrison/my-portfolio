@@ -21,5 +21,3 @@ const Card = ({ project }) => {
 };
 
 export default Card;
-
-// style={{width: '20rem'}}

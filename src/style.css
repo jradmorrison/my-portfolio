@@ -1,25 +1,16 @@
 :root {
-    --grey: #35363A;
-    --blueGreen: #315C5B;
+  --grey: #35363a;
+  --blueGreen: #315c5b;
 }
 
 body {
-    margin: 0;
-    background-color: var(--grey);
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-color: var(--grey);
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-
-/* h1, h2, h3, p, a {
-    color: white;
-} */
-
-/* .screen {
-    width: 100vw;
-    min-height: 100vh;
-} */

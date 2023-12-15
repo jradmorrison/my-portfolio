@@ -3,11 +3,20 @@ import tasty from '../../assets/images/tasty.png';
 import techBlog from '../../assets/images/tech-blog.png';
 import listyFlix from '../../assets/images/listy-flix.png';
 import socialNetwork from '../../assets/images/social.png';
-import weatherDashboard from '../../assets/images/weather.png';
+import koi from '../../assets/images/koi.png';
 
 export const projectData = [
   {
     id: 0,
+    image: koi,
+    title: 'Koi Invoicing',
+    description:
+      'A powerful MERN stack app to create and send invoices, geared toward small business and individuals',
+    repo: 'https://github.com/jradmorrison/koi-invoicing',
+    live: 'https://koi-invoicing-6238f5ad379e.herokuapp.com/',
+  },
+  {
+    id: 1,
     image: tasty,
     title: 'Tasty Tableau',
     description:
@@ -16,7 +25,7 @@ export const projectData = [
     live: 'https://cryptic-tundra-53497-2c1c36d10121.herokuapp.com/',
   },
   {
-    id: 1,
+    id: 2,
     image: listyFlix,
     title: 'Listy Flix',
     description:
@@ -25,7 +34,7 @@ export const projectData = [
     live: 'https://thatziro.github.io/Listy-Flix/',
   },
   {
-    id: 2,
+    id: 3,
     image: techBlog,
     title: 'The Tech Blog',
     description:
@@ -34,7 +43,7 @@ export const projectData = [
     live: 'https://warm-brushlands-22664-151feb64557a.herokuapp.com/',
   },
   {
-    id: 3,
+    id: 4,
     image: jate,
     title: 'J.A.T.E',
     description:
@@ -43,21 +52,12 @@ export const projectData = [
     live: 'https://jate-tad7.onrender.com/',
   },
   {
-    id: 4,
+    id: 5,
     image: socialNetwork,
     title: 'Social Network API',
     description:
       "The backend functionality for a social networking app that has the functionality for creating users, thoughts, and reactions to users' thoughts",
     repo: 'https://github.com/jradmorrison/social-network-api',
     live: 'https://drive.google.com/file/d/14I3CuCiC5PHvkkxBFuc1ceu2TpYRbF-F/view',
-  },
-  {
-    id: 5,
-    image: weatherDashboard,
-    title: 'Weather Dashboard',
-    description:
-      'A simple weather dashboard to view current weather conditions and 5-day forecast for cities of your choice',
-    repo: 'https://github.com/jradmorrison/weather-dashboard',
-    live: 'https://jradmorrison.github.io/weather-dashboard/',
   },
 ];

@@ -1,4 +1,41 @@
+import { useState } from 'react';
+import './style.css';
+
 const Contact = () => {
+  const [formState, setFormState] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleChange = () => {
+    const { id, value } = event.target;
+
+    setFormState({
+      ...formState,
+      [id]: value,
+    });
+  };
+
+  const handleFormSubmit = (e) => {
+    if (
+      formState.name !== '' &&
+      formState.email !== '' &&
+      formState.message !== ''
+    ) {
+      e.preventDefault();
+
+      // TODO: Set up nodemailer to have the form input be emailled to me
+      clearForm();
+    }
+  };
+
+  const clearForm = () => {
+    document.getElementById('name').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('message').value = '';
+  };
+
   return (
     <div id="contact" style={{ backgroundColor: 'whitesmoke' }}>
       <div className="container py-5">
@@ -11,6 +48,7 @@ const Contact = () => {
                 className="form-control"
                 id="name"
                 placeholder="Name"
+                onChange={handleChange}
                 required
               />
             </div>
@@ -20,6 +58,7 @@ const Contact = () => {
                 className="form-control"
                 id="email"
                 placeholder="Email"
+                onChange={handleChange}
                 required
               />
             </div>
@@ -29,11 +68,12 @@ const Contact = () => {
                 id="message"
                 placeholder="A brief message"
                 rows={4}
+                onChange={handleChange}
                 required
               />
             </div>
             <div className="d-flex justify-content-end">
-              <button type="submit" className="btn btn-success">
+              <button onClick={handleFormSubmit}>
                 CONTACT ME
               </button>
             </div>
