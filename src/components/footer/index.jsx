@@ -8,7 +8,7 @@ import {
   AiOutlineFacebook,
 } from 'react-icons/ai';
 
-import resume from '../../assets/resume.pdf';
+import resume from '../../assets/Jared-Morrison-Resume.pdf';
 
 const Footer = () => {
   return (
@@ -58,7 +58,7 @@ const Footer = () => {
               <a
                 href={resume}
                 attributes-listdownload="Jared Morrison's resume"
-                target='_blank'>
+                target="_blank">
                 Download my resume
               </a>
             </div>
