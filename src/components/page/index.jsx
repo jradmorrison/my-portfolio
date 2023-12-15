@@ -10,15 +10,13 @@ import Footer from '../footer';
 const LandingPage = () => {
   return (
     <>
-      {/* <div className="flex-wrap"> */}
-        <Navbar />
-        <HeroImg />
-        <AboutMe />
-        <Portfolio />
-        <Skills />
-        <Contact />
-        <Footer />
-      {/* </div> */}
+      <Navbar />
+      <HeroImg />
+      <AboutMe />
+      <Portfolio />
+      <Skills />
+      <Contact />
+      <Footer />
     </>
   );
 };

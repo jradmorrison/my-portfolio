@@ -17,13 +17,12 @@ const AboutMe = () => {
               responsive web apps using React.
             </p>
             <p className="mb-5">
-              I'm a full-stack web developer on a mission to create
-              awesome digital experiences. I learn fast, stay dedicated, and
-              geek out on all things coding. Whether it's crafting sleek
-              front-end interfaces with HTML, CSS, and JavaScript, or diving
-              into the nitty-gritty of back-end magic with Node.js, I'm all in!
-              I love tackling challenges head-on and turning them into cool
-              solutions.
+              I'm a full-stack web developer on a mission to create awesome
+              digital experiences. I learn fast, stay dedicated, and geek out on
+              all things coding. Whether it's crafting sleek front-end
+              interfaces with HTML, CSS, and JavaScript, or diving into the
+              nitty-gritty of back-end magic with Node.js, I'm all in! I love
+              tackling challenges head-on and turning them into cool solutions.
             </p>
             <p>
               Check out some of my projects below and feel free to give me a
