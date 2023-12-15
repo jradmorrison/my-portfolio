@@ -17,7 +17,7 @@ const AboutMe = () => {
               responsive web apps using React.
             </p>
             <p className="mb-5">
-              I'm a full-stack web development student on a mission to create
+              I'm a full-stack web developer on a mission to create
               awesome digital experiences. I learn fast, stay dedicated, and
               geek out on all things coding. Whether it's crafting sleek
               front-end interfaces with HTML, CSS, and JavaScript, or diving
