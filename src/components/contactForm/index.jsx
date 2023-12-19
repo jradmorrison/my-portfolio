@@ -1,4 +1,5 @@
 import { useState } from 'react';
+// import mail from '../../utils/nodemailer';
 import './style.css';
 
 const Contact = () => {
@@ -18,14 +19,18 @@ const Contact = () => {
   };
 
   const handleFormSubmit = (e) => {
+    e.preventDefault();
     if (
       formState.name !== '' &&
       formState.email !== '' &&
       formState.message !== ''
     ) {
-      e.preventDefault();
-
-      // TODO: Set up nodemailer to have the form input be emailled to me
+      // try {
+      //   mail(formState);
+      // } catch (error) {
+      //   console.error(error);
+      // }
+      // // TODO: Set up nodemailer to have the form input be emailled to me
       clearForm();
     }
   };
@@ -73,9 +78,7 @@ const Contact = () => {
               />
             </div>
             <div className="d-flex justify-content-end">
-              <button onClick={handleFormSubmit}>
-                CONTACT ME
-              </button>
+              <button onClick={handleFormSubmit}>CONTACT ME</button>
             </div>
           </form>
         </div>

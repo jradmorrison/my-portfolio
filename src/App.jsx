@@ -1,3 +1,5 @@
-import Page from './components/page'
+import Page from './components/page';
 
-export default App = () => <Page/>
+const App = () => <Page />;
+
+export default App;
