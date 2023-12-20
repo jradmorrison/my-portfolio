@@ -1,5 +1,4 @@
 import { useState } from 'react';
-// import mail from '../../utils/nodemailer';
 import './style.css';
 
 const Contact = () => {
@@ -18,19 +17,27 @@ const Contact = () => {
     });
   };
 
-  const handleFormSubmit = (e) => {
+  const handleFormSubmit = async (e) => {
     e.preventDefault();
     if (
       formState.name !== '' &&
       formState.email !== '' &&
       formState.message !== ''
     ) {
-      // try {
-      //   mail(formState);
-      // } catch (error) {
-      //   console.error(error);
-      // }
-      // // TODO: Set up nodemailer to have the form input be emailled to me
+      try {
+        const response = await fetch('/api/contact-me', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(formState),
+        });
+
+        if (!response.ok) throw new Error('Unable to submit request');
+
+        const result = await response.json();
+        console.log(result);
+      } catch (error) {
+        console.error(error);
+      }
       clearForm();
     }
   };

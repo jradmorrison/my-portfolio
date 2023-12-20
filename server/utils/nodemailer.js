@@ -1,6 +1,5 @@
-import { createTransport } from 'nodemailer';
-import dotenv from 'dotenv';
-dotenv.config();
+const { createTransport } = require('nodemailer');
+require('dotenv').config();
 
 const transporter = createTransport({
   host: process.env.MAIL_HOST,
@@ -19,7 +18,7 @@ const mail = async ({ name, email, message }) => {
       from: `${name} <${email}>`,
       to: `jmorrison.m44@gmail.com`,
       subject: `${name} wants to get in contact!`,
-      text: `${message}`,
+      text: `${message}\n\n${name} can be reached at ${email}`,
     });
     console.log(info);
   } catch (err) {
@@ -27,4 +26,4 @@ const mail = async ({ name, email, message }) => {
   }
 };
 
-export default mail;
+module.exports = { mail };
