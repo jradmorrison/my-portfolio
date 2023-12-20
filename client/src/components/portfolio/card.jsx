@@ -2,7 +2,7 @@ import './style.css';
 
 const Card = ({ project }) => {
   return (
-    <div className="card mx-4 my-3 col-md-5 col-lg-3">
+    <div className="card">
       <img src={project.image} className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title">{project.title}</h5>
