@@ -20,6 +20,28 @@
   color: white;
 }
 
+.sideNavi {
+  z-index: 15;
+  background-color: var(--blueGreen);
+  min-width: 100vw;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  /* transition: 1s ease-in; */
+}
+
+.close {
+  position: absolute;
+  left: 20px;
+  top: -10px;
+  color: white;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}
+
 .links a {
   margin: 0 0.7rem;
   font-size: 1.2rem;
@@ -53,10 +75,14 @@
   margin: 0;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 912px) {
   .navi {
-    flex-direction: column;
-    padding: 0.5rem 0;
+    /* flex-direction: column; */
+    padding: 0.5rem 1rem;
   }
 
   .links a {
