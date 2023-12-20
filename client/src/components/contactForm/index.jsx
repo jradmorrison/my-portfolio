@@ -25,15 +25,15 @@ const Contact = () => {
       formState.message !== ''
     ) {
       try {
-        const response = await fetch('/api/contact-me', {
+        const res = await fetch('/api/contact-me', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(formState),
         });
 
-        if (!response.ok) throw new Error('Unable to submit request');
+        if (!res.ok) throw new Error('Unable to submit request');
 
-        const result = await response.json();
+        const result = await res.json();
         console.log(result);
       } catch (error) {
         console.error(error);

@@ -20,7 +20,7 @@ const mail = async ({ name, email, message }) => {
       subject: `${name} wants to get in contact!`,
       text: `${message}\n\n${name} can be reached at ${email}`,
     });
-    console.log(info);
+    return info;
   } catch (err) {
     console.error(err);
   }

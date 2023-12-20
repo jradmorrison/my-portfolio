@@ -5,7 +5,7 @@ module.exports = {
     try {
       const emailPackage = req.body;
       const result = await mail(emailPackage);
-      res.json(result);
+      return res.json(result);
     } catch (error) {
       console.error(error);
     }
