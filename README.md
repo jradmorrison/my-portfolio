@@ -28,16 +28,15 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jradmorrison/my-portfolio">
-    <img src="./client/src/assets/images/logo.png" alt="Logo" width="150" height="150">
-  </a>
+  
+<img src="./client/src/assets/images/logo.png" alt="Logo" width="150" height="150">
 
 <h1 align="center">Jared Morrison</h1>
 
   <p align="center">
     My personal website
     <br><br>
-    <a href="https://jared-morrison.netlify.app/" target="_blank">Visit the deployed site here</a>
+    <a href="https://jared-morrison-1bb1951db155.herokuapp.com/" target="_blank">Visit the deployed site here</a>
   </p>
 </div>
 
@@ -74,7 +73,7 @@ No installation necessary
 
 ## Usage
 
-To use this application, simply visit the deployed site <a href="" target="_blank">here</a>
+To use this application, simply visit the deployed site <a href="https://jared-morrison-1bb1951db155.herokuapp.com/" target="_blank">here</a>
 
 Here's a quick peek at what you can expect to see!
 
@@ -115,11 +114,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-<h4>Email - <a href="mailto:jmorrison.m44@gmail.com">jmorrison.m44@gmail.com</a></h4>
+<h4>Email - <a href="mailto:jmorrison.m44@gmail.com" target="_blank">jmorrison.m44@gmail.com</a></h4>
 
-<h4>GitHub - <a href="https://github.com/jradmorrison">jradmorrison</a></h4>
+<h4>GitHub - <a href="https://github.com/jradmorrison" target="_blank">jradmorrison</a></h4>
 
-<h4>LinkdIn - <a href="https://linkedin.com/in/jradmorrison">jradmorrison</a></h4>
+<h4>LinkdIn - <a href="https://linkedin.com/in/jradmorrison" target="_blank">jradmorrison</a></h4>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
