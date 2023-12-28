@@ -12,17 +12,20 @@ const AboutMe = () => {
           </div>
           <div className="words col-sm-7">
             <p className="mb-5">
-              Welcome to my React portfolio! I developed this project to further
-              my knowledge and ability to deploy clean, interactive, and
-              responsive web apps using React.
+              I am a dedicated and fast-learning full-stack web developer with a
+              passion for creating innovative and user-friendly digital
+              experiences. My commitment to excellence in my field is reflected
+              in my proactive approach to learning and staying abreast of the
+              latest industry trends. As a highly motivated professional, I
+              thrive in dynamic environments where I can apply my technical
+              skills and creative mindset to solve complex problems.
             </p>
             <p className="mb-5">
-              I'm a full-stack web developer on a mission to create awesome
-              digital experiences. I learn fast, stay dedicated, and geek out on
-              all things coding. Whether it's crafting sleek front-end
-              interfaces with HTML, CSS, and JavaScript, or diving into the
-              nitty-gritty of back-end magic with Node.js, I'm all in! I love
-              tackling challenges head-on and turning them into cool solutions.
+              I have successfully developed and maintained web applications
+              using a variety of technologies, including JavaScript, Node.js,
+              and React. My experience spans both front-end and back-end
+              development, allowing me to deliver end-to-end solutions that
+              align with industry best practices.
             </p>
             <p>
               Check out some of my projects below and feel free to give me a

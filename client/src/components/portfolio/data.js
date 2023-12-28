@@ -4,6 +4,9 @@ import techBlog from '../../assets/images/tech-blog.png';
 import listyFlix from '../../assets/images/listy-flix.png';
 import socialNetwork from '../../assets/images/social.png';
 import koi from '../../assets/images/koi.png';
+import e_commerce from '../../assets/images/e-commerce.png'
+import employee_tracker from '../../assets/images/employee-tracker.png'
+import logo_maker from '../../assets/images/logo-maker.png'
 
 export const projectData = [
   {
@@ -59,5 +62,32 @@ export const projectData = [
       "The backend functionality for a social networking app that has the functionality for creating users, thoughts, and reactions to users' thoughts",
     repo: 'https://github.com/jradmorrison/social-network-api',
     live: 'https://drive.google.com/file/d/14I3CuCiC5PHvkkxBFuc1ceu2TpYRbF-F/view',
+  },
+  {
+    id: 6,
+    image: e_commerce,
+    title: 'E-Commerce Back-End',
+    description:
+      "The backend infrastructure for an e-commerce app. Providing RESTful API endpoints for performing CRUD using Sequelize on a MySQL database.",
+    repo: 'https://github.com/jradmorrison/e-commerce-back-end',
+    live: 'https://drive.google.com/file/d/15_7U3Os0s0HRJXOShG6B5JoI71tIG67q/view',
+  },
+  {
+    id: 7,
+    image: employee_tracker,
+    title: 'Employee Tracker',
+    description:
+      "A CLI application to manipulate an employee MySQL database. Allows the user to view employees, departments, and job roles as well as add new of each.",
+    repo: 'https://github.com/jradmorrison/employee-tracker',
+    live: 'https://drive.google.com/file/d/1k8aslAOAJsRAgQufLTjNy7-pUbrzD5l1/view',
+  },
+  {
+    id: 8,
+    image: logo_maker,
+    title: 'SVG Logo Maker',
+    description:
+      "A CLI application to generate a simple SVG logo adhering to user inputs.",
+    repo: 'https://github.com/jradmorrison/logo-maker',
+    live: 'https://drive.google.com/file/d/1mOhv0fnDbUotjYKgbBOVbWvZT4O0TxXG/view',
   },
 ];
