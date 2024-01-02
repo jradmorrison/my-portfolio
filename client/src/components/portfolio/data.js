@@ -25,7 +25,7 @@ export const projectData = [
     description:
       'A comprehensive culinary platform that empowers users to explore, discover, and savor a world of recipes',
     repo: 'https://github.com/jradmorrison/tasty-tableau',
-    live: 'https://cryptic-tundra-53497-2c1c36d10121.herokuapp.com/',
+    live: 'https://tasty-tableau-43648013efa7.herokuapp.com/',
   },
   {
     id: 2,
