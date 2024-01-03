@@ -43,7 +43,7 @@ export const projectData = [
     description:
       'A CMS-style blog site, where devs can publish their blog posts and comment on other developers posts',
     repo: 'https://github.com/jradmorrison/tech-blog',
-    live: 'https://warm-brushlands-22664-151feb64557a.herokuapp.com/',
+    live: 'https://tech-blog-0101-b6cb323ba621.herokuapp.com/',
   },
   {
     id: 4,
