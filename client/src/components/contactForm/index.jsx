@@ -31,29 +31,57 @@ const Contact = () => {
           body: JSON.stringify(formState),
         });
 
-        if (!res.ok) throw new Error('Unable to submit request');
+        
 
-        const result = await res.json();
-        console.log(result);
+        await res.json();
+        if (!res.ok) {
+          throw new Error('Unable to submit request');
+        } else {
+          sendMessage('Message sent successfully', 'success');
+        }
       } catch (error) {
-        console.error(error);
+        // console.error(error);
+        sendMessage('Error submitting request', 'error');
+      } finally {
+        document.getElementById('name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('message').value = '';
+        setFormState({ name: '', email: '', message: '' });
       }
-      clearForm();
+    } else {
+      sendMessage('Please fill out the form');
     }
   };
 
-  const clearForm = () => {
-    document.getElementById('name').value = '';
-    document.getElementById('email').value = '';
-    document.getElementById('message').value = '';
+  const sendMessage = (message, result) => {
+    const messageElement = document.createElement('div');
+    messageElement.setAttribute('id', 'formMessage');
+
+    if (result === 'success') {
+      messageElement.classList.add('success');
+      messageElement.innerHTML = message;
+    } else if (result === 'error') {
+      messageElement.classList.add('error');
+      messageElement.innerHTML = message;
+    } else {
+      messageElement.classList.add('warning');
+      messageElement.innerHTML = message;
+    }
+
+    document.getElementById('contactForm').appendChild(messageElement);
+    setTimeout(removeMessage, 3000);
   };
+
+  const removeMessage = () => document.getElementById('formMessage').remove();
 
   return (
     <div id="contact" style={{ backgroundColor: 'whitesmoke' }}>
       <div className="container py-5">
         <div>
           <h2 className="text-center mb-5">GET IN TOUCH</h2>
-          <form className="col-lg-6 col-md-8 mx-auto">
+          <form
+            id="contactForm"
+            className="col-lg-6 col-md-8 mx-auto position-relative">
             <div className="mb-3">
               <input
                 type="text"

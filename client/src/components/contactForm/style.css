@@ -9,3 +9,27 @@
 #contact button:hover {
   background-color: #488786;
 }
+
+#formMessage {
+  position: absolute;
+  bottom: 0px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.success {
+  color: var(--blueGreen);
+  border: solid 1px var(--blueGreen);
+}
+
+.error {
+  color: #B50000;
+  border: solid 1px #B50000;
+}
+
+.warning {
+  color: #D68800;
+  border: solid 1px #D68800;
+}
