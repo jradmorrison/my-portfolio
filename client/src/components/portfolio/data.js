@@ -52,7 +52,7 @@ export const projectData = [
     description:
       'A simple text editor web app that runs in the browser and meets PWA criteria',
     repo: 'https://github.com/jradmorrison/jate',
-    live: 'https://jate-tad7.onrender.com/',
+    live: 'https://jate-0207-f98734946fc3.herokuapp.com/',
   },
   {
     id: 5,
