@@ -22,7 +22,7 @@ const mail = async ({ name, email, message }) => {
     });
     return info;
   } catch (err) {
-    console.error(err);
+    return err;
   }
 };
 

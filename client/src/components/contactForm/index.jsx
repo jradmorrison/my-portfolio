@@ -31,8 +31,6 @@ const Contact = () => {
           body: JSON.stringify(formState),
         });
 
-        
-
         await res.json();
         if (!res.ok) {
           throw new Error('Unable to submit request');
