@@ -11,6 +11,10 @@ const Navbar = () => {
 
   let width = window.innerWidth;
 
+  const scrollTo = (id) => {
+    document.getElementById(id).scrollIntoView();
+  };
+
   const changeNavColor = () => {
     if (window.scrollY >= 100) {
       scrollColor(true);
@@ -20,10 +24,10 @@ const Navbar = () => {
   };
 
   const handleResize = () => {
+    width = window.innerWidth;
     if (window.innerWidth <= 912) {
       toggleMobileNav(true);
     } else toggleMobileNav(false);
-    width = window.innerWidth;
   };
 
   const openNavigation = () => {
@@ -40,58 +44,78 @@ const Navbar = () => {
   return (
     <>
       <div className={color ? 'navi navi-solid' : 'navi'}>
-        <a href="/">
-          <h1 className="">JARED MORRISON</h1>
+        <a href='/'>
+          <h1 className=''>JARED MORRISON</h1>
         </a>
         {width > 912 ? (
-          <div className="links">
-            <a href="#top">HOME</a>
-            <a href="#about-me">ABOUT</a>
-            <a href="#portfolio">PORTFOLIO</a>
-            <a href="#skills">SKILLS</a>
-            <a href="#contact">CONTACT</a>
+          <div className='links'>
+            <ul className='d-flex my-auto'>
+              <li onClick={() => scrollTo('top')}>HOME</li>
+              <li onClick={() => scrollTo('about-me')}>ABOUT</li>
+              <li onClick={() => scrollTo('portfolio')}>PORTFOLIO</li>
+              <li onClick={() => scrollTo('skills')}>SKILLS</li>
+              <li onClick={() => scrollTo('contact')}>CONTACT</li>
+            </ul>
           </div>
         ) : (
-          <div className="px-3 pointer" onClick={openNavigation}>
-            <CiMenuBurger color="white" size={30} />
+          <div className='px-3 pointer' onClick={openNavigation}>
+            <CiMenuBurger color='white' size={30} />
           </div>
         )}
       </div>
       {sideMenu ? (
-        <div className="sideNavi py-3">
-          <div className="links d-flex flex-column position-relative">
-            <div className="close">
-              <MdClose size={40} onClick={closeNavigation} />
-            </div>
-            <div className="">
-              <a href="#top" onClick={closeNavigation}>
+        <div className='sideNavi py-3'>
+          {/* <div className='close'>
+            
+          </div> */}
+          <div className='links d-flex flex-column position-relative'>
+            <MdClose className='close' size={40} onClick={closeNavigation} />
+            <ul className='m-0 p-0'>
+              <li
+                className='ms-4'
+                onClick={() => {
+                  scrollTo('top');
+                  closeNavigation();
+                }}>
                 HOME
-              </a>
-            </div>
-            <hr />
-            <div>
-              <a href="#about-me" onClick={closeNavigation}>
+              </li>
+              <hr />
+              <li
+                className='ms-4'
+                onClick={() => {
+                  scrollTo('about-me');
+                  closeNavigation();
+                }}>
                 ABOUT
-              </a>
-            </div>
-            <hr />
-            <div>
-              <a href="#portfolio" onClick={closeNavigation}>
+              </li>
+              <hr />
+              <li
+                className='ms-4'
+                onClick={() => {
+                  scrollTo('portfolio');
+                  closeNavigation();
+                }}>
                 PORTFOLIO
-              </a>
-            </div>
-            <hr />
-            <div>
-              <a href="#skills" onClick={closeNavigation}>
+              </li>
+              <hr />
+              <li
+                className='ms-4'
+                onClick={() => {
+                  scrollTo('skills');
+                  closeNavigation();
+                }}>
                 SKILLS
-              </a>
-            </div>
-            <hr />
-            <div>
-              <a href="#contact" onClick={closeNavigation}>
+              </li>
+              <hr />
+              <li
+                className='ms-4'
+                onClick={() => {
+                  scrollTo('contact');
+                  closeNavigation();
+                }}>
                 CONTACT
-              </a>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       ) : (

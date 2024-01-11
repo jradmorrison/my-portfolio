@@ -1,3 +1,4 @@
 #skills .title {
   background-color: var(--blueGreen);
+  filter: brightness(120%);
 }

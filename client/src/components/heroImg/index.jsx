@@ -3,7 +3,7 @@ import { FaChevronDown } from 'react-icons/fa';
 
 const heroImg = () => {
   return (
-    <div className="hero">
+    <div className="hero" id='top'>
       <div className="title container d-flex justify-content-end">
         // WEB DEVELOPER
       </div>

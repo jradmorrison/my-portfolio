@@ -5,7 +5,7 @@ import { projectData } from './data';
 
 const Portfolio = () => {
   return (
-    <div id="portfolio" className="py-5">
+    <div id="portfolio" className="pt-5 border-0">
       <div className="d-flex flex-wrap justify-content-between container py-4">
         {projectData.map((project) => (
           <div className='col-md-6 col-lg-4 px-5 py-3'>

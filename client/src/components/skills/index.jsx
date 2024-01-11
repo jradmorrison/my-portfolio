@@ -30,9 +30,10 @@ const skills = () => {
   ];
 
   return (
-    <div id="skills">
-      <h2 className="py-5 text-center text-white title">SKILL OVERVIEW</h2>
-      <div className="container d-flex flex-wrap text-white text-center py-5">
+    <div id='skills'>
+      <div className='w-100 border-0' style={{height: '3rem', backgroundColor: 'whitesmoke'}}></div>
+      <h2 className='py-5 text-center text-white title'>SKILL OVERVIEW</h2>
+      <div className='container d-flex flex-wrap text-white text-center py-5'>
         {skillData.map((skill) => (
           <SkillPartial key={skill.id} skill={skill} />
         ))}

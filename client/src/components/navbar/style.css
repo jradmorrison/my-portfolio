@@ -16,10 +16,6 @@
   transition: 0.3s;
 }
 
-.navi a {
-  color: white;
-}
-
 .sideNavi {
   z-index: 15;
   background-color: var(--blueGreen);
@@ -32,8 +28,8 @@
 
 .close {
   position: absolute;
-  left: 20px;
-  top: -10px;
+  right: 20px;
+  top: -7px;
   color: white;
   cursor: pointer;
 }
@@ -42,15 +38,18 @@
   color: red;
 }
 
-.links a {
+.links li {
   margin: 0 0.7rem;
   font-size: 1.2rem;
   position: relative;
   overflow: hidden;
   padding: 2px 0;
+  color: white;
+  cursor: pointer;
+  width: fit-content;
 }
 
-.links a::after {
+.links li::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -64,8 +63,8 @@
   transform-origin: center;
 }
 
-.links a:hover::after,
-.links a:focus::after {
+.links li:hover::after,
+.links li:focus::after {
   opacity: 1;
   transform: translate(0, 0.2em, 0);
   transform: scale(1);

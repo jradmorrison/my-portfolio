@@ -33,13 +33,14 @@ const Contact = () => {
 
         await res.json();
         if (!res.ok) {
-          throw new Error('Unable to submit request');
+          sendMessage('Error submitting request', 'error');
         } else {
           sendMessage('Message sent successfully', 'success');
         }
       } catch (error) {
-        // console.error(error);
+        console.error(error);
         sendMessage('Error submitting request', 'error');
+        throw new Error(error);
       } finally {
         document.getElementById('name').value = '';
         document.getElementById('email').value = '';
