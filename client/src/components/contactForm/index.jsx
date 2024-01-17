@@ -74,45 +74,45 @@ const Contact = () => {
   const removeMessage = () => document.getElementById('formMessage').remove();
 
   return (
-    <div id="contact" style={{ backgroundColor: 'whitesmoke' }}>
-      <div className="container py-5">
+    <div id='contact' style={{ backgroundColor: 'whitesmoke' }}>
+      <div className='container py-5'>
         <div>
-          <h2 className="text-center mb-5">GET IN TOUCH</h2>
+          <h2 className='text-center mb-5'>GET IN TOUCH</h2>
           <form
-            id="contactForm"
-            className="col-lg-6 col-md-8 mx-auto position-relative">
-            <div className="mb-3">
+            id='contactForm'
+            className='col-lg-6 col-md-8 mx-auto position-relative'>
+            <div className='mb-3'>
               <input
-                type="text"
-                className="form-control"
-                id="name"
-                placeholder="Name"
+                type='text'
+                className='form-control'
+                id='name'
+                placeholder='Name'
                 onChange={handleChange}
                 required
               />
             </div>
-            <div className="mb-3">
+            <div className='mb-3'>
               <input
-                type="email"
-                className="form-control"
-                id="email"
-                placeholder="Email"
+                type='email'
+                className='form-control'
+                id='email'
+                placeholder='Email'
                 onChange={handleChange}
                 required
               />
             </div>
-            <div className="mb-3">
+            <div className='mb-3'>
               <textarea
-                className="form-control"
-                id="message"
-                placeholder="A brief message"
+                className='form-control'
+                id='message'
+                placeholder='A brief message'
                 rows={4}
                 onChange={handleChange}
                 required
               />
             </div>
-            <div className="d-flex justify-content-end">
-              <button onClick={handleFormSubmit}>CONTACT ME</button>
+            <div className='d-flex justify-content-end'>
+              <button onClick={handleFormSubmit}>SEND</button>
             </div>
           </form>
         </div>

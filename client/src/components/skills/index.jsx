@@ -18,7 +18,7 @@ const skills = () => {
       badge: <TbBrandJavascript size={80} style={{ color: '#FFD940' }} />,
       title: 'JavaScript | TypeScript',
       content:
-        "My exploration of JavaScript has been an enriching journey. Starting from the basics, I gradually delved into the intricacies of the language, honing my skills in both front-end and back-end development. The process involved overcoming challenges, mastering new concepts, and ultimately gaining a solid understanding of how to craft dynamic and efficient web applications. I now find joy and confidence in my ability to navigate the complexities of JavaScript and TypeScript seamlessly.",
+        'My exploration of JavaScript has been an enriching journey. Starting from the basics, I gradually delved into the intricacies of the language, honing my skills in both front-end and back-end development. The process involved overcoming challenges, mastering new concepts, and ultimately gaining a solid understanding of how to craft dynamic and efficient web applications. I now find joy and confidence in my ability to navigate the complexities of JavaScript and TypeScript seamlessly.',
     },
     {
       id: 2,

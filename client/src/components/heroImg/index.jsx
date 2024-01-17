@@ -4,7 +4,7 @@ import { FaChevronDown } from 'react-icons/fa';
 const heroImg = () => {
   return (
     <div className="hero" id='top'>
-      <div className="title container d-flex justify-content-end">
+      <div className="title slideIn container d-flex justify-content-end">
         // WEB DEVELOPER
       </div>
       <div className="d-flex justify-content-center arrow">
