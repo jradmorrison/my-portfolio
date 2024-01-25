@@ -50,7 +50,7 @@ export const projectData = [
     image: jate,
     title: 'J.A.T.E',
     description:
-      'A simple text editor web app that runs in the browser and meets PWA criteria',
+      'A simple text editor web app that runs in the browser and meets PWA criteria. Downloadable for use offline.',
     repo: 'https://github.com/jradmorrison/jate',
     live: 'https://jate-0207-f98734946fc3.herokuapp.com/',
   },
@@ -68,7 +68,7 @@ export const projectData = [
     image: e_commerce,
     title: 'E-Commerce Back-End',
     description:
-      "The backend infrastructure for an e-commerce app. Providing RESTful API endpoints for performing CRUD using Sequelize on a MySQL database.",
+      "The backend infrastructure for an e-commerce app. Providing RESTful API endpoints for performing CRUD using an ORM on a MySQL database",
     repo: 'https://github.com/jradmorrison/e-commerce-back-end',
     live: 'https://drive.google.com/file/d/15_7U3Os0s0HRJXOShG6B5JoI71tIG67q/view',
   },
@@ -77,7 +77,7 @@ export const projectData = [
     image: employee_tracker,
     title: 'Employee Tracker',
     description:
-      "A CLI application to manipulate an employee MySQL database. Allows the user to view employees, departments, and job roles as well as add new of each.",
+      "A CLI application to manipulate an employee MySQL database. Allows the user to view and create employees, departments, and job roles",
     repo: 'https://github.com/jradmorrison/employee-tracker',
     live: 'https://drive.google.com/file/d/1k8aslAOAJsRAgQufLTjNy7-pUbrzD5l1/view',
   },
@@ -86,7 +86,7 @@ export const projectData = [
     image: logo_maker,
     title: 'SVG Logo Maker',
     description:
-      "A CLI application to generate a simple SVG logo adhering to user inputs.",
+      "A CLI application to generate a simple SVG logo adhering to user inputs",
     repo: 'https://github.com/jradmorrison/logo-maker',
     live: 'https://drive.google.com/file/d/1mOhv0fnDbUotjYKgbBOVbWvZT4O0TxXG/view',
   },

@@ -74,10 +74,10 @@ const Contact = () => {
   const removeMessage = () => document.getElementById('formMessage').remove();
 
   return (
-    <div id='contact' style={{ backgroundColor: 'whitesmoke' }}>
+    <div id='contact' style={{ backgroundColor: 'whitesmoke', padding: '3rem 0' }}>
       <div className='container py-5'>
         <div>
-          <h2 className='text-center mb-5'>GET IN TOUCH</h2>
+          <h2 className='text-center mb-5 title'>GET IN TOUCH</h2>
           <form
             id='contactForm'
             className='col-lg-6 col-md-8 mx-auto position-relative'>

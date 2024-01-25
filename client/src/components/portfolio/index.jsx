@@ -8,7 +8,7 @@ const Portfolio = () => {
     <div id="portfolio" className="pt-5 border-0">
       <div className="d-flex flex-wrap justify-content-between container py-4">
         {projectData.map((project) => (
-          <div className='col-md-6 col-lg-4 px-5 py-3'>
+          <div className='col-md-6 col-lg-4 px-4 py-3'>
             <Card key={project.id} project={project} />
           </div>
         ))}

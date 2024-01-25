@@ -1,12 +1,15 @@
-.box1,
-.box2 {
-  padding: 0 3rem;
+.info {
+  width: fit-content;
+  margin: 0 auto;
+}
+.box2 a {
+  margin: 0 1.5rem;
 }
 
 @media screen and (max-width: 612px) {
-  #footer {
+  /* #footer {
     font-size: 0.8rem;
-  }
+  } */
 
   .box1,
   .box2 {
@@ -15,12 +18,16 @@
 }
 
 @media screen and (max-width: 480px) {
-  #footer {
-    font-size: 0.7rem;
-  }
+  /* #footer {
+    font-size: 0.8rem;
+  } */
 
   .box1,
   .box2 {
     padding: 0 0.5rem;
   }
+
+  /* .box2 a {
+    margin: 0 0.5rem;
+  } */
 }

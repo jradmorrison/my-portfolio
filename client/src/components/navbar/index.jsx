@@ -47,7 +47,7 @@ const Navbar = () => {
         <a href='/'>
           <h1 className=''>JARED MORRISON</h1>
         </a>
-        {width > 912 ? (
+        {width > 980 ? (
           <div className='links'>
             <ul className='d-flex my-auto'>
               <li onClick={() => scrollTo('top')}>HOME</li>

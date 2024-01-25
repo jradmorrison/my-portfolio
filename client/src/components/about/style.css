@@ -1,5 +1,5 @@
 #about-me {
-  padding: 8rem 3rem;
+  padding: 8rem 1rem;
   margin: 0 auto;
 }
 
@@ -16,14 +16,20 @@
 
 .content p {
   font-size: 1.2rem;
+  text-wrap: pretty;
+  margin: 0 3rem;
 }
 
 #me {
   width: 100%;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
   #me {
     margin-bottom: 1rem;
+  }
+
+  .content p {
+    margin: 0 1rem;
   }
 }

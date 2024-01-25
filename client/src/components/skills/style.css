@@ -2,3 +2,8 @@
   background-color: var(--blueGreen);
   filter: brightness(120%);
 }
+
+#skills p {
+  font-size: 1.2rem;
+  text-wrap: pretty;
+}
