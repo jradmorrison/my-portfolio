@@ -8,7 +8,7 @@ import {
   AiOutlineFacebook,
 } from 'react-icons/ai';
 
-import resume from '../../assets/Jared-Morrison.pdf';
+import resume from '../../assets/Jared_Morrison.pdf';
 
 const Footer = () => {
   return (

@@ -1,4 +1,3 @@
-import './style.css';
 import Navbar from '../navbar';
 import HeroImg from '../heroImg';
 import AboutMe from '../about';
