@@ -6,7 +6,7 @@ import { MdClose } from 'react-icons/md';
 
 const Navbar = () => {
   const [color, scrollColor] = useState(false);
-  const [mobileNav, toggleMobileNav] = useState(false);
+  const [mobileNav, toggleMobileNav] = useState(null);
   const [sideMenu, toggleSideMenu] = useState(false);
 
   let width = window.innerWidth;
@@ -25,7 +25,7 @@ const Navbar = () => {
 
   const handleResize = () => {
     width = window.innerWidth;
-    if (window.innerWidth <= 912) {
+    if (window.innerWidth <= 980) {
       toggleMobileNav(true);
     } else toggleMobileNav(false);
   };
