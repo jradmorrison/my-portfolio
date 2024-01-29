@@ -1,17 +1,16 @@
 #about-me {
   padding: 8rem 1rem;
   margin: 0 auto;
+  background: radial-gradient(
+    circle,
+    rgba(53, 54, 58, 1) 0%,
+    rgba(49, 92, 91, 0.3) 100%
+  );
 }
 
 .content {
-  border: 2px solid white;
   padding: 2rem;
   color: white;
-  box-shadow: 0 0 50px var(--blueGreen);
-}
-
-.content h2 {
-  text-align: center;
 }
 
 .content p {

@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div id='about-me'>
       <div className='content container'>
-        <h2 className='mb-4'>Hey there!👋</h2>
+        <h2 className='mb-4 text-center'>Who am I?</h2>
         <div className='d-flex flex-wrap justify-content-around'>
           <div className='col-md-4'>
             <img src={me} alt='a picture of me' id='me' className='rounded-4' />
